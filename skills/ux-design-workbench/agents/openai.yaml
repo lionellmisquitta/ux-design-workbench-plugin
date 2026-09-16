@@ -1,0 +1,7 @@
+interface:
+  display_name: "UX Design Workbench"
+  short_description: "Architecture, Atlas selection, and polished UI"
+  brand_color: "#2563EB"
+  default_prompt: "Use $ux-design-workbench to architect and visually direct this product."
+policy:
+  allow_implicit_invocation: true

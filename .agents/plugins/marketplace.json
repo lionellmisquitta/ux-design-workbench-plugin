@@ -1,0 +1,16 @@
+{
+  "name": "lionell-ux-tools",
+  "interface": {"displayName": "Lionell UX Tools"},
+  "plugins": [
+    {
+      "name": "ux-design-workbench",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lionellmisquitta/ux-design-workbench-plugin.git",
+        "ref": "main"
+      },
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

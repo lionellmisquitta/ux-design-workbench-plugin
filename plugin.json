@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ux-design-workbench",
+  "version": "1.0.0",
+  "description": "Architect UX, choose a defensible visual direction in the Design System Atlas, and produce implementation-ready UI.",
+  "author": {"name": "Lionell Misquitta", "url": "https://github.com/lionellmisquitta"},
+  "homepage": "https://lionellmisquitta.github.io/design-system-atlas/",
+  "repository": "https://github.com/lionellmisquitta/ux-design-workbench-plugin",
+  "license": "MIT",
+  "keywords": ["ux", "ui", "design-system", "design-atlas", "product-design"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UX Design Workbench",
+        "shortDescription": "Architecture to visual system to polished UI",
+        "longDescription": "A guided product-design workflow connecting UX architecture, the public Design System Atlas, Theme Manifest handoff, and implementation-ready UI direction.",
+        "developerName": "Lionell Misquitta",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "websiteURL": "https://lionellmisquitta.github.io/design-system-atlas/",
+        "privacyPolicyURL": "https://github.com/lionellmisquitta/ux-design-workbench-plugin/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/lionellmisquitta/ux-design-workbench-plugin/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use the UX Design Workbench to architect and visually direct this product.",
+          "Review this existing application and create a defensible redesign baseline.",
+          "Use my Atlas Theme Manifest to design and implement the interface."
+        ],
+        "brandColor": "#2563EB"
+      }
+    }
+  }
+}

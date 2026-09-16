@@ -1,0 +1,9 @@
+{
+  "name": "ux-design-workbench",
+  "version": "1.0.0",
+  "description": "Architect UX, choose a defensible visual direction in the Design System Atlas, and produce implementation-ready UI.",
+  "author": {"name": "Lionell Misquitta"},
+  "homepage": "https://lionellmisquitta.github.io/design-system-atlas/",
+  "repository": "https://github.com/lionellmisquitta/ux-design-workbench-plugin",
+  "license": "MIT"
+}
